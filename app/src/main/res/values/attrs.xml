@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="padding_right" format="dimension" />
+    <declare-styleable name="SliddingView">
+        <attr name="padding_right" />
+    </declare-styleable>
+</resources>

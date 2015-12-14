@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:czmc="http://schemas.android.com/apk/me.czmc.silddingmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.czmc.sliddingmenu.view.SliddingView
+        android:id="@+id/sliddingMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/img_frame_background"
+        czmc:padding_right="150dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <include layout="@layout/menu" />
+            <include layout="@layout/content" />
+
+        </LinearLayout>
+    </me.czmc.sliddingmenu.view.SliddingView>
+</RelativeLayout>
